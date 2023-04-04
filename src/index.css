@@ -1,13 +1,122 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: auto;
+  border-left: solid;
+  border-width: 5px;
+  border-color: lightgray;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+nav {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+main {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+footer {
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: -6%;
+}
+
+.site-title {
+  color: #df4239;
+  font-weight: lighter;
+  font-size: 70px;
+}
+
+.sub-title {
+  font-weight: lighter;
+}
+
+img {
+  width: 100%;
+}
+
+.main-nav > ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-nav > ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav a {
+  color: #a09d9d;
+  font-weight: lighter;
+  font-size: 20px;
+  text-underline-offset: 4px;
+}
+
+.bottom-nav a {
+  color: #df4239;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.date {
+  margin-bottom: -3%;
+  color: darkgray;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.blog-title {
+  color: black;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.continues > a {
+  text-decoration: none;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  text-align: right;
+  font-weight: bold;
+  color: #df4239;
+  font-size: 18px;
+}
+
+.cont-anchor {
+  display: flex;
+  justify-content: right;
+}
+
+article {
+  margin-bottom: 4rem;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}
+
+.add-fancy-style {
+  color: darkgray;
+  font-weight: lighter;
+  line-height: 2em;
+}
+
+.add-fancy-style::first-letter {
+  font-size: 6rem;
+  padding: 35px 3px 20px;
+  margin-right: 6px;
+  float: left;
+  font-weight: lighter;
+  color: darkgray;
+}
+
+.copyright {
+  color: darkgray;
 }
